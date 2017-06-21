@@ -75,6 +75,7 @@
             // 
             // timerLoadPage
             // 
+            this.timerLoadPage.Interval = 150;
             this.timerLoadPage.Tick += new System.EventHandler(this.timerLoadPage_Tick);
             // 
             // VProgressBarLoadPage
